@@ -8,25 +8,25 @@
 </head>
 
 <body>
-	<header>
-		<div class="logo">
+	<header class="header">
+		<div class="header-logo">
 			<img src="./assets/images/logoMonito.png" alt="Logo Menitor Pets for Best" />
 		</div>
-		<nav>
-			<ul>
+		<nav class="header-nav">
+			<ul class="nav-list">
 				<li><a href="#">Home</a></li>
 				<li><a href="#">Category</a></li>
 				<li><a href="#">About</a></li>
 				<li><a href="#">Contact</a></li>
 			</ul>
 		</nav>
-		<div class="input-search">
+		<div class="hearder-input-search">
 			<img src="./assets/icons/iconSearch.png" alt="icon search" />
 			<input type="text" placeholder="Search something here!" />
 		</div>
 		<button class="btn-join-community">Join the community</button>
 
-		<div class="currency">
+		<div class="header-currency">
 			<img src="./assets/icons/VN.png" alt="Flag Vietnam" />
 			<select name="currency">
 				<option value="vnd">VNĐ</option>
@@ -37,9 +37,9 @@
 	</header>
 
 	<main>
-		<!-- Section -->
-		<section>
-			<div>
+		<!-- Section Slider -->
+		<section class="slider-section">
+			<div class="slider-content">
 				<h1 class="slider-title">One More Friend</h1>
 				<p class="slider-subtitle">Thousands more fun!</p>
 				<p class="slider-description">
@@ -52,138 +52,137 @@
 						View Intro
 						<img src="./assets/icons/Play_Circle.png" alt="icon play video" />
 					</button>
-					<button>Explore now</button>
+					<button class="slider-btn-explore">Explore now</button>
 				</div>
 			</div>
-			<div>
+			<div class="slider-img">
 				<img src="./assets/images/dogandwomen.png" alt="Dog and Women" />
 			</div>
 		</section>
 
 		<!-- Section Pets -->
-		<section>
-			<div>
-				<div>
-					<p>whats new?</p>
-					<h2>Take a look at some of our pets</h2>
+		<section class="pets-section">
+			<div class="pets-section-header">
+				<div class="pets-section-title">
+					<p class="pets-section-subtitle">whats new?</p>
+					<h2 class="pets-section-title">Take a look at some of our pets</h2>
 				</div>
-				<button>
+				<button class="pets-section-btn">
 					View more
 					<img src="./assets/icons/iconRight.png" alt="icon right" />
 				</button>
 			</div>
 
-			<div class="pets">
-				<div class="pet__item">
-					<div>
+			<div class="pets-list">
+				<div class="pet_card">
+					<div class="pet-card-image">
 						<img src="./assets/images/PomeranianWhite.png" alt="Image Pomeranian White" />
 					</div>
-					<div>
-						<h3>MO231 - Pomeranian White</h3>
-						<p>Gene: Male • Age: 02 months</p>
-						<p>6.900.000 VND</p>
+					<div class="pet-card-infor">
+						<h3 class="pet-card-name">MO231 - Pomeranian White</h3>
+						<p class="pet-card-details">Gene: Male • Age: 02 months</p>
+						<p class="pet-card-price">6.900.000 VND</p>
 					</div>
 				</div>
 
-				<div class="pet__item">
-					<div>
+				<div class="pet_card">
+					<div class="pet-card-image">
 						<img src="./assets/images/PoodleTinyYellow.png" alt="Image Poodle Tiny Yellow" />
 					</div>
-					<div>
-						<h3>MO502 - Poodle Tiny Yellow</h3>
-						<p>Gene: Female • Age: 02 months</p>
-						<p>3.900.000 VND</p>
+					<div class="pet-card-infor">
+						<h3 class="pet-card-name">MO502 - Poodle Tiny Yellow</h3>
+						<p class="pet-card-details">Gene: Female • Age: 02 months</p>
+						<p class="pet-card-price">3.900.000 VND</p>
 					</div>
 				</div>
 
-				<div class="pet__item">
-					<div>
+				<div class="pet_card">
+					<div class="pet-card-image">
 						<img src="./assets/images/PoodleTinySepia.png" alt="Image Poodle Tiny Sepia" />
 					</div>
-					<div>
-						<h3>MO102 - Poodle Tiny Sepia</h3>
-						<p>Gene: Male • Age: 02 months</p>
-						<p>4.000.000 VND</p>
+					<div class="pet-card-infor">
+						<h3 class="pet-card-name">MO102 - Poodle Tiny Sepia</h3>
+						<p class="pet-card-details">Gene: Male • Age: 02 months</p>
+						<p class="pet-card-price">4.000.000 VND</p>
 					</div>
 				</div>
 
-				<div class="pet__item">
-					<div>
+				<div class="pet_card">
+					<div class="pet-card-image">
 						<img src="./assets/images/AlaskanMalamuteGrey.png" alt="Image Alaskan Malamute Grey" />
 					</div>
-					<div>
-						<h3>MO512 - Alaskan Malamute Grey</h3>
-						<p>Gene: Male • Age: 02 months</p>
-						<p>8.900.000 VND</p>
+					<div class="pet-card-infor">
+						<h3 class="pet-card-name">MO512 - Alaskan Malamute Grey</h3>
+						<p class="pet-card-details">Gene: Male • Age: 02 months</p>
+						<p class="pet-card-price">8.900.000 VND</p>
 					</div>
 				</div>
 
-				<div class="pet__item">
-					<div>
+				<div class="pet_card">
+					<div class="pet-card-image">
 						<img src="./assets/images/PembrokeCorgiCream.png" alt="Image Corgi Cream" />
 					</div>
-					<div>
-						<h3>MO231 - Pembroke Corgi Cream</h3>
-						<p>Gene: Male • Age: 02 months</p>
-						<p>7.900.000 VND</p>
+					<div class="pet-card-infor">
+						<h3 class="pet-card-name">MO231 - Pembroke Corgi Cream</h3>
+						<p class="pet-card-details">Gene: Male • Age: 02 months</p>
+						<p class="pet-card-price">7.900.000 VND</p>
 					</div>
 				</div>
 
-				<div class="pet__item">
-					<div>
+				<div class="pet_card">
+					<div class="pet-card-image">
 						<img src="./assets/images/PembrokeCorgiTricolo.png" alt="Image Pembroke Corgi Tricolo" />
 					</div>
-					<div>
-						<h3>MO502 - Pembroke Corgi Tricolor</h3>
-						<p>Gene: Female • Age: 02 months</p>
-						<p>9.000.000 VND</p>
+					<div class="pet-card-infor">
+						<h3 class="pet-card-name">MO502 - Pembroke Corgi Tricolor</h3>
+						<p class="pet-card-details">Gene: Female • Age: 02 months</p>
+						<p class="pet-card-price">9.000.000 VND</p>
 					</div>
 				</div>
 
-				<div class="pet__item">
-					<div>
+				<div class="pet_card">
+					<div class="pet-card-image">
 						<img src="./assets/images/PomeranianWhite-female.png" alt="Image Pomeranian White Female" />
 					</div>
-					<div>
-						<h3>MO231 - Pomeranian White</h3>
-						<p>Gene: FeMale • Age: 02 months</p>
-						<p>6.500.000 VND</p>
+					<div class="pet-card-infor">
+						<h3 class="pet-card-name">MO231 - Pomeranian White</h3>
+						<p class="pet-card-details">Gene: FeMale • Age: 02 months</p>
+						<p class="pet-card-price">6.500.000 VND</p>
 					</div>
 				</div>
 
-				<div class="pet__item">
-					<div>
+				<div class="pet_card">
+					<div class="pet-card-image">
 						<img src="./assets/images/PoodleTinyDairyCow.png" alt="Image Poodle Tiny Dairy Cow" />
 					</div>
-					<div>
-						<h3>MO512 - Poodle Tiny Dairy Cow</h3>
-						<p>Gene: Male • Age: 02 months</p>
-						<p>5.000.000 VND</p>
+					<div class="pet-card-infor">
+						<h3 class="pet-card-name">MO512 - Poodle Tiny Dairy Cow</h3>
+						<p class="pet-card-details">Gene: Male • Age: 02 months</p>
+						<p class="pet-card-price">5.000.000 VND</p>
 					</div>
 				</div>
 			</div>
 		</section>
 
 		<!-- banner -->
-		<section>
-			<div>
+		<section class="banner-section">
+			<div class="banner-img">
 				<img src="./assets/images/dogandwomen2.png" alt="Dog and Women 2" />
 			</div>
-
-			<div>
-				<h2>One More Friend</h2>
-				<p>Thousands more fun!</p>
-				<p>
+			<div class="banner-content">
+				<h2 class="banner-title">One More Friend</h2>
+				<p class="banner-subtitle">Thousands more fun!</p>
+				<p class="banner-description">
 					Having a pet means you have more joy, a new friend, a happy person
 					who will always be with you to have fun. We have 200+ different pets
 					that can meet your needs!
 				</p>
-				<div>
-					<button>
+				<div class="btns-banner">
+					<button class="btn-banner-intro">
 						View Intro
 						<img src="./assets/icons/Play_Circle.png" alt="icon play video" />
 					</button>
-					<button>Explore now</button>
+					<button class="btn-banner-explore">Explore now</button>
 				</div>
 			</div>
 		</section>
@@ -442,63 +441,61 @@
 			</div>
 		</section>
 	</main>
+
+	<!-- Footer -->
 	<footer>
-		<div>
-			<h2></h2>
-			<div>
-				<input type="text" placeholder="Enter your email" />
-				<button>Subcribe Now</button>
+		<div class="footer-subcribe">
+			<h2 class="footer-title">
+				Register now so you don't miss our programs
+			</h2>
+			<div class="footer-form">
+				<input class="footer-input" type="text" placeholder="Enter your email" />
+				<button class="footer-btn-subcribe">Subcribe Now</button>
 			</div>
 		</div>
-		<div>
-			<div>
-				<nav>
-					<ul>
-						<li><a href="#"></a>Home</li>
-						<li><a href="#"></a>Category</li>
-						<li><a href="#"></a>About</li>
-						<li><a href="#"></a>Contact</li>
-					</ul>
-				</nav>
-			</div>
-			<div>
-				<nav>
-					<ul>
-						<li>
-							<a href="#">
-								<img src="./assets/icons/iconFacebook.png" alt="icon Facebook" />
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="./assets/icons/iconTwitter.png" alt="icon Twitter" />
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="./assets/icons/iconInstagram.png" alt="icon Instagram" />
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="./assets/icons/iconYouTube.png" alt="icon YouTube" />
-							</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
+		<div class="footer-content">
+			<nav class="footer-nav">
+				<ul class="footer-menu">
+					<li><a href="#"></a>Home</li>
+					<li><a href="#"></a>Category</li>
+					<li><a href="#"></a>About</li>
+					<li><a href="#"></a>Contact</li>
+				</ul>
+			</nav>
+			<nav>
+				<ul class="footer-social">
+					<li>
+						<a href="#">
+							<img src="./assets/icons/iconFacebook.png" alt="icon Facebook" />
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./assets/icons/iconTwitter.png" alt="icon Twitter" />
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./assets/icons/iconInstagram.png" alt="icon Instagram" />
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./assets/icons/iconYouTube.png" alt="icon YouTube" />
+						</a>
+					</li>
+				</ul>
+			</nav>
 		</div>
 		<p class="line"></p>
-		<div class="policy">
-			<div>
-				<p>© 2022 Monito. All rights reserved.</p>
+		<div class="footer-bottom">
+			<p class="footer-copyright">© 2022 Monito. All rights reserved.</p>
+			<div class="footer-logo">
+				<img src="./assets/images/logoMonito.png" alt="logo Monito" />
 			</div>
-			<div>
-
-			</div>
-			<div>
-				<div></div>
-				<div></div>
+			<div class="footer-policy">
+				<a href="#">Terms of Service</a>
+				<a href="#">Privacy Policy</a>
 			</div>
 		</div>
 	</footer>
