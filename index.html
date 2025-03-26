@@ -9,36 +9,40 @@
 
 <body>
   <header class="header">
-    <h2 class="header-logo">
-      <img src="./assets/images/logoMonito.png" alt="Logo Menitor Pets for Best" />
-    </h2>
-    <nav class="header-nav">
-      <ul class="nav-list">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Category</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="hearder-input-search">
-      <img src="./assets/icons/iconSearch.png" alt="icon search" />
-      <input type="text" placeholder="Search something here!" />
+    <div class="header-nav">
+      <h2 class="header-logo">
+        <img src="./assets/images/logoMonito.png" alt="Logo Menitor Pets for Best" />
+      </h2>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Category</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-    <button class="btn-join-community">Join the community</button>
+    <div class="header-actions">
+      <div class="header-search">
+        <img src="./assets/icons/iconSearch.png" alt="icon search" />
+        <input type="text" placeholder="Search something here!" />
+      </div>
+      <button class="header-btn">Join the community</button>
 
-    <div class="header-currency">
-      <img src="./assets/icons/VN.png" alt="Flag Vietnam" />
-      <select name="currency">
-        <option value="vnd">VNĐ</option>
-        <option value="usd">USD</option>
-        <option value="eur">EUR</option>
-      </select>
+      <div class="header-selector">
+        <img src="./assets/icons/VN.png" alt="Flag Vietnam" />
+        <select name="currency">
+          <option value="vnd">VNĐ</option>
+          <option value="usd">USD</option>
+          <option value="eur">EUR</option>
+        </select>
+      </div>
     </div>
   </header>
 
   <main>
     <!-- Section Banner -->
-    <section class="banner-section">
+    <section class="section-banner">
       <div class="banner-content">
         <h1 class="banner-title">One More Friend</h1>
         <p class="banner-subtitle">Thousands more fun!</p>
@@ -47,12 +51,12 @@
           who will always be with you to have fun. We have 200+ different pets
           that can meet your needs!
         </p>
-        <div class="banner-btn">
-          <button class="banner-btn-intro">
+        <div class="banner-btn-group">
+          <button class="banner-btn banner-btn-secondary">
             <span>View Intro</span>
             <img src="./assets/icons/Play_Circle.png" alt="icon play video" />
           </button>
-          <button class="banner-btn-explore">Explore now</button>
+          <button class="banner-btn banner-btn-primary">Explore now</button>
         </div>
       </div>
       <div class="banner-img">
@@ -61,14 +65,14 @@
     </section>
 
     <!-- Section Pets -->
-    <section class="pets-section">
-      <div class="pets-section-header">
-        <div class="pets-section-title">
-          <p class="pets-section-subtitle">whats new?</p>
-          <h2 class="pets-section-title">Take a look at some of our pets</h2>
+    <section class="section-pets">
+      <div class="pets-header">
+        <div class="pets-title">
+          <p class="pets-subtitle">whats new?</p>
+          <h2 class="pets-heading">Take a look at some of our pets</h2>
         </div>
-        <button class="pets-section-btn">
-          View more
+        <button class="pets-btn">
+          <span>View more</span>
           <img src="./assets/icons/iconRight.png" alt="icon right" />
         </button>
       </div>
@@ -285,7 +289,7 @@
           <h2 class="pet-products-heading">Our Products</h2>
         </div>
         <button class="pet-product-view-more">
-          View more
+          <span>View more</span>
           <img src="./assets/icons/iconRight.png" alt="icon right" />
         </button>
       </div>
@@ -586,7 +590,7 @@
           <h2 class="pet-knowledge-title">Useful pet knowledge</h2>
         </div>
         <button class="btn-pet-knowledge-view-more">
-          View more
+          <span>View more</span>
           <img src="./assets/icons/iconRight.png" alt="icon right" />
         </button>
       </div>
@@ -654,9 +658,9 @@
   <!-- Footer -->
   <footer>
     <div class="footer-subcribe">
-      <h2 class="footer-title">
+      <h4 class="footer-title">
         Register now so you don't miss our programs
-      </h2>
+      </h4>
       <form class="footer-form">
         <input class="footer-input" type="text" placeholder="Enter your email" />
         <button class="footer-btn-subcribe">Subcribe Now</button>
