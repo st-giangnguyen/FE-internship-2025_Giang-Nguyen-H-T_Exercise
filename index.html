@@ -9,9 +9,9 @@
 
 <body>
 	<header class="header">
-		<div class="header-logo">
+		<h2 class="header-logo">
 			<img src="./assets/images/logoMonito.png" alt="Logo Menitor Pets for Best" />
-		</div>
+		</h2>
 		<nav class="header-nav">
 			<ul class="nav-list">
 				<li><a href="#">Home</a></li>
@@ -37,25 +37,25 @@
 	</header>
 
 	<main>
-		<!-- Section Slider -->
-		<section class="slider-section">
-			<div class="slider-content">
-				<h1 class="slider-title">One More Friend</h1>
-				<p class="slider-subtitle">Thousands more fun!</p>
-				<p class="slider-description">
+		<!-- Section Banner -->
+		<section class="banner-section">
+			<div class="banner-content">
+				<h1 class="banner-title">One More Friend</h1>
+				<p class="banner-subtitle">Thousands more fun!</p>
+				<p class="banner-description">
 					Having a pet means you have more joy, a new friend, a happy person
 					who will always be with you to have fun. We have 200+ different pets
 					that can meet your needs!
 				</p>
-				<div class="slide-btn">
-					<button class="slider-btn-intro">
-						View Intro
+				<div class="banner-btn">
+					<button class="banner-btn-intro">
+						<span>View Intro</span>
 						<img src="./assets/icons/Play_Circle.png" alt="icon play video" />
 					</button>
-					<button class="slider-btn-explore">Explore now</button>
+					<button class="banner-btn-explore">Explore now</button>
 				</div>
 			</div>
-			<div class="slider-img">
+			<div class="banner-img">
 				<img src="./assets/images/dogandwomen.png" alt="Dog and Women" />
 			</div>
 		</section>
@@ -73,116 +73,162 @@
 				</button>
 			</div>
 
-			<div class="pets-list">
-				<div class="pet_card">
-					<div class="pet-card-image">
-						<img src="./assets/images/PomeranianWhite.png" alt="Image Pomeranian White" />
-					</div>
-					<div class="pet-card-infor">
-						<h3 class="pet-card-name">MO231 - Pomeranian White</h3>
-						<p class="pet-card-details">Gene: Male • Age: 02 months</p>
-						<p class="pet-card-price">6.900.000 VND</p>
-					</div>
-				</div>
+			<ul class="pets-list">
+				<li class="pet-item">
+					<a href="#" class="pet-card">
+						<div class="pet-card-image">
+							<img src="./assets/images/PomeranianWhite.png" alt="Image Pomeranian White" />
+						</div>
+						<div class="pet-card-infor">
+							<h3 class="pet-card-name">MO231 - Pomeranian White</h3>
+							<div class="pet-card-detail">
+								<div>
+									<span class="pet-card-label-gene">Gene: Male</span>
+									<span class="pet-card-gene">Male</span>
+								</div>
+								<div>
+									<span class="pet-card-label-age">Gene:</span>
+									<span class="pet-card-age">02 months</span>
+								</div>
+							</div>
+							<span class="pet-card-price">6.900.000 VND</span>
+						</div>
+					</a>
+				</li>
 
-				<div class="pet_card">
-					<div class="pet-card-image">
-						<img src="./assets/images/PoodleTinyYellow.png" alt="Image Poodle Tiny Yellow" />
-					</div>
-					<div class="pet-card-infor">
-						<h3 class="pet-card-name">MO502 - Poodle Tiny Yellow</h3>
-						<p class="pet-card-details">Gene: Female • Age: 02 months</p>
-						<p class="pet-card-price">3.900.000 VND</p>
-					</div>
-				</div>
+				<li class="pet-item">
+					<a href="#" class="pet-card">
+						<div class="pet-card-image">
+							<img src="./assets/images/PoodleTinyYellow.png" alt="Image Poodle Tiny Yellow" />
+						</div>
+						<div class="pet-card-infor">
+							<h3 class="pet-card-name">MO502 - Poodle Tiny Yellow</h3>
+							<div class="pet-card-detail">
+								<span class="pet-card-Gene">Gene: Male</span>
+								<span class="pet-card-age">Age: 02 months</span>
+							</div>
+							<span class="pet-card-price">6.900.000 VND</span>
+						</div>
+					</a>
+				</li>
 
-				<div class="pet_card">
-					<div class="pet-card-image">
-						<img src="./assets/images/PoodleTinySepia.png" alt="Image Poodle Tiny Sepia" />
-					</div>
-					<div class="pet-card-infor">
-						<h3 class="pet-card-name">MO102 - Poodle Tiny Sepia</h3>
-						<p class="pet-card-details">Gene: Male • Age: 02 months</p>
-						<p class="pet-card-price">4.000.000 VND</p>
-					</div>
-				</div>
+				<li class="pet-item">
+					<a href="#" class="pet-card">
+						<div class="pet-card-image">
+							<img src="./assets/images/PoodleTinySepia.png" alt="Image Poodle Tiny Sepia" />
+						</div>
+						<div class="pet-card-infor">
+							<h3 class="pet-card-name">MO102 - Poodle Tiny Sepia</h3>
+							<div class="pet-card-detail">
+								<span class="pet-card-Gene">Gene: Male</span>
+								<span class="pet-card-age">Age: 02 months</span>
+							</div>
+							<span class="pet-card-price">6.900.000 VND</span>
+						</div>
+					</a>
+				</li>
 
-				<div class="pet_card">
-					<div class="pet-card-image">
-						<img src="./assets/images/AlaskanMalamuteGrey.png" alt="Image Alaskan Malamute Grey" />
-					</div>
-					<div class="pet-card-infor">
-						<h3 class="pet-card-name">MO512 - Alaskan Malamute Grey</h3>
-						<p class="pet-card-details">Gene: Male • Age: 02 months</p>
-						<p class="pet-card-price">8.900.000 VND</p>
-					</div>
-				</div>
+				<li class="pet-item">
+					<a href="#" class="pet-card">
+						<div class="pet-card-image">
+							<img src="./assets/images/AlaskanMalamuteGrey.png" alt="Image Alaskan Malamute Grey" />
+						</div>
+						<div class="pet-card-infor">
+							<h3 class="pet-card-name">MO512 - Alaskan Malamute Grey</h3>
+							<div class="pet-card-detail">
+								<span class="pet-card-Gene">Gene: Male</span>
+								<span class="pet-card-age">Age: 02 months</span>
+							</div>
+							<span class="pet-card-price">6.900.000 VND</span>
+						</div>
+					</a>
+				</li>
 
-				<div class="pet_card">
-					<div class="pet-card-image">
-						<img src="./assets/images/PembrokeCorgiCream.png" alt="Image Corgi Cream" />
-					</div>
-					<div class="pet-card-infor">
-						<h3 class="pet-card-name">MO231 - Pembroke Corgi Cream</h3>
-						<p class="pet-card-details">Gene: Male • Age: 02 months</p>
-						<p class="pet-card-price">7.900.000 VND</p>
-					</div>
-				</div>
+				<li class="pet-item">
+					<a href="#" class="pet-card">
+						<div class="pet-card-image">
+							<img src="./assets/images/PembrokeCorgiCream.png" alt="Image Corgi Cream" />
+						</div>
+						<div class="pet-card-infor">
+							<h3 class="pet-card-name">MO231 - Pembroke Corgi Cream</h3>
+							<div class="pet-card-detail">
+								<span class="pet-card-Gene">Gene: Male</span>
+								<span class="pet-card-age">Age: 02 months</span>
+							</div>
+							<span class="pet-card-price">6.900.000 VND</span>
+						</div>
+					</a>
+				</li>
 
-				<div class="pet_card">
-					<div class="pet-card-image">
-						<img src="./assets/images/PembrokeCorgiTricolo.png" alt="Image Pembroke Corgi Tricolo" />
-					</div>
-					<div class="pet-card-infor">
-						<h3 class="pet-card-name">MO502 - Pembroke Corgi Tricolor</h3>
-						<p class="pet-card-details">Gene: Female • Age: 02 months</p>
-						<p class="pet-card-price">9.000.000 VND</p>
-					</div>
-				</div>
+				<li class="pet-item">
+					<a href="#" class="pet-card">
+						<div class="pet-card-image">
+							<img src="./assets/images/PembrokeCorgiTricolo.png" alt="Image Pembroke Corgi Tricolo" />
+						</div>
+						<div class="pet-card-infor">
+							<h3 class="pet-card-name">MO502 - Pembroke Corgi Tricolor</h3>
+							<div class="pet-card-detail">
+								<span class="pet-card-Gene">Gene: Male</span>
+								<span class="pet-card-age">Age: 02 months</span>
+							</div>
+							<span class="pet-card-price">6.900.000 VND</span>
+						</div>
+					</a>
+				</li>
 
-				<div class="pet_card">
-					<div class="pet-card-image">
-						<img src="./assets/images/PomeranianWhite-female.png" alt="Image Pomeranian White Female" />
-					</div>
-					<div class="pet-card-infor">
-						<h3 class="pet-card-name">MO231 - Pomeranian White</h3>
-						<p class="pet-card-details">Gene: FeMale • Age: 02 months</p>
-						<p class="pet-card-price">6.500.000 VND</p>
-					</div>
-				</div>
+				<li class="pet-item">
+					<a href="#" class="pet-card">
+						<div class="pet-card-image">
+							<img src="./assets/images/PomeranianWhite-female.png" alt="Image Pomeranian White Female" />
+						</div>
+						<div class="pet-card-infor">
+							<h3 class="pet-card-name">MO231 - Pomeranian White</h3>
+							<div class="pet-card-detail">
+								<span class="pet-card-Gene">Gene: Male</span>
+								<span class="pet-card-age">Age: 02 months</span>
+							</div>
+							<span class="pet-card-price">6.900.000 VND</span>
+						</div>
+					</a>
+				</li>
 
-				<div class="pet_card">
-					<div class="pet-card-image">
-						<img src="./assets/images/PoodleTinyDairyCow.png" alt="Image Poodle Tiny Dairy Cow" />
-					</div>
-					<div class="pet-card-infor">
-						<h3 class="pet-card-name">MO512 - Poodle Tiny Dairy Cow</h3>
-						<p class="pet-card-details">Gene: Male • Age: 02 months</p>
-						<p class="pet-card-price">5.000.000 VND</p>
-					</div>
-				</div>
-			</div>
+				<li class="pet-item">
+					<a href="#" class="pet-card">
+						<div class="pet-card-image">
+							<img src="./assets/images/PoodleTinyDairyCow.png" alt="Image Poodle Tiny Dairy Cow" />
+						</div>
+						<div class="pet-card-infor">
+							<h3 class="pet-card-name">MO512 - Poodle Tiny Dairy Cow</h3>
+							<div class="pet-card-detail">
+								<span class="pet-card-Gene">Gene: Male</span>
+								<span class="pet-card-age">Age: 02 months</span>
+							</div>
+							<span class="pet-card-price">6.900.000 VND</span>
+						</div>
+					</a>
+				</li>
+			</ul>
 		</section>
 
-		<!-- banner -->
-		<section class="banner-section">
-			<div class="banner-img">
+		<!-- second banner -->
+		<section class="second-banner-section">
+			<div class="second-banner-img">
 				<img src="./assets/images/dogandwomen2.png" alt="Dog and Women 2" />
 			</div>
-			<div class="banner-content">
-				<h2 class="banner-title">One More Friend</h2>
-				<p class="banner-subtitle">Thousands more fun!</p>
-				<p class="banner-description">
+			<div class="second-banner-content">
+				<h2 class="second-banner-title">One More Friend</h2>
+				<p class="second-banner-subtitle">Thousands more fun!</p>
+				<p class="second-banner-description">
 					Having a pet means you have more joy, a new friend, a happy person
 					who will always be with you to have fun. We have 200+ different pets
 					that can meet your needs!
 				</p>
-				<div class="btns-banner">
-					<button class="btn-banner-intro">
-						View Intro
+				<div class="btns-second-banner">
+					<button class="btn-second-banner-intro">
+						<span>View Intro</span>
 						<img src="./assets/icons/Play_Circle.png" alt="icon play video" />
 					</button>
-					<button class="btn-banner-explore">Explore now</button>
+					<button class="btn-second-banner-explore">Explore now</button>
 				</div>
 			</div>
 		</section>
@@ -201,136 +247,183 @@
 					<img src="./assets/icons/iconRight.png" alt="icon right" />
 				</button>
 			</div>
-			<div class="pet-product-list">
-				<div class="pet-product-item">
-					<div class="pet-product-img">
-						<img src="./assets/images/zealand.png" alt="zealand" />
-					</div>
-					<div class="pet-product-infor">
-						<h3 class="pet-product-name">
-							Reflex Plus Adult Cat Food Salmon
-						</h3>
-						<p class="pet-product-detail">Product: Dog Food • Size: 1.5kg</p>
-						<p class="pet-product-price">165.000 VND</p>
-					</div>
-					<div class="pet-product-gift">
-						<img src="./assets/images/gift.png" alt="gift" />
-						<p>• Toy & Free Shaker</p>
-					</div>
-				</div>
-				<div class="pet-product-item">
-					<div class="pet-product-img">
-						<img src="./assets/images/zealand.png" alt="zealand" />
-					</div>
-					<div class="pet-product-infor">
-						<h3 class="pet-product-name">
-							Reflex Plus Adult Cat Food Salmon
-						</h3>
-						<p class="pet-product-detail">Product: Dog Food • Size: 1.5kg</p>
-						<p class="pet-product-price">165.000 VND</p>
-					</div>
-					<div class="pet-product-gift">
-						<img src="./assets/images/gift.png" alt="gift" />
-						<p>• Toy & Free Shaker</p>
-					</div>
-				</div>
-				<div class="pet-product-item">
-					<div class="pet-product-img">
-						<img src="./assets/images/zealand.png" alt="zealand" />
-					</div>
-					<div class="pet-product-infor">
-						<h3 class="pet-product-name">
-							Reflex Plus Adult Cat Food Salmon
-						</h3>
-						<p class="pet-product-detail">Product: Dog Food • Size: 1.5kg</p>
-						<p class="pet-product-price">165.000 VND</p>
-					</div>
-					<div class="pet-product-gift">
-						<img src="./assets/images/gift.png" alt="gift" />
-						<p>• Toy & Free Shaker</p>
-					</div>
-				</div>
-				<div class="pet-product-item">
-					<div class="pet-product-img">
-						<img src="./assets/images/zealand.png" alt="zealand" />
-					</div>
-					<div class="pet-product-infor">
-						<h3 class="pet-product-name">
-							Reflex Plus Adult Cat Food Salmon
-						</h3>
-						<p class="pet-product-detail">Product: Dog Food • Size: 1.5kg</p>
-						<p class="pet-product-price">165.000 VND</p>
-					</div>
-					<div class="pet-product-gift">
-						<img src="./assets/images/gift.png" alt="gift" />
-						<p>• Toy & Free Shaker</p>
-					</div>
-				</div>
-				<div class="pet-product-item">
-					<div class="pet-product-img">
-						<img src="./assets/images/zealand.png" alt="zealand" />
-					</div>
-					<div class="pet-product-infor">
-						<h3 class="pet-product-name">
-							Reflex Plus Adult Cat Food Salmon
-						</h3>
-						<p class="pet-product-detail">Product: Dog Food • Size: 1.5kg</p>
-						<p class="pet-product-price">165.000 VND</p>
-					</div>
-					<div class="pet-product-gift">
-						<img src="./assets/images/gift.png" alt="gift" />
-						<p>• Toy & Free Shaker</p>
-					</div>
-				</div>
-				<div class="pet-product-item">
-					<div class="pet-product-img">
-						<img src="./assets/images/zealand.png" alt="zealand" />
-					</div>
-					<div class="pet-product-infor">
-						<h3 class="pet-product-name">
-							Reflex Plus Adult Cat Food Salmon
-						</h3>
-						<p class="pet-product-detail">Product: Dog Food • Size: 1.5kg</p>
-						<p class="pet-product-price">165.000 VND</p>
-					</div>
-					<div class="pet-product-gift">
-						<img src="./assets/images/gift.png" alt="gift" />
-						<p>• Toy & Free Shaker</p>
-					</div>
-				</div>
-				<div class="pet-product-item">
-					<div class="pet-product-img">
-						<img src="./assets/images/zealand.png" alt="zealand" />
-					</div>
-					<div class="pet-product-infor">
-						<h3 class="pet-product-name">
-							Reflex Plus Adult Cat Food Salmon
-						</h3>
-						<p class="pet-product-detail">Product: Dog Food • Size: 1.5kg</p>
-						<p class="pet-product-price">165.000 VND</p>
-					</div>
-					<div class="pet-product-gift">
-						<img src="./assets/images/gift.png" alt="gift" />
-						<p>• Toy & Free Shaker</p>
-					</div>
-				</div>
-				<div class="pet-product-item">
-					<div class="pet-product-img">
-						<img src="./assets/images/zealand.png" alt="zealand" />
-					</div>
-					<div class="pet-product-infor">
-						<h3 class="pet-product-name">
-							Reflex Plus Adult Cat Food Salmon
-						</h3>
-						<p class="pet-product-detail">Product: Dog Food • Size: 1.5kg</p>
-						<p class="pet-product-price">165.000 VND</p>
-					</div>
-					<div class="pet-product-gift">
-						<img src="./assets/images/gift.png" alt="gift" />
-						<p>• Toy & Free Shaker</p>
-					</div>
-				</div>
-			</div>
+			<ul class="pet-product-list">
+				<li class="pet-product-item">
+					<a href="#" class="pet-product-card">
+						<div class="pet-product-img">
+							<img src="./assets/images/zealand.png" alt="zealand" />
+						</div>
+						<div class="pet-product-infor">
+							<h3 class="pet-product-name">
+								Reflex Plus Adult Cat Food Salmon
+							</h3>
+							<span class="pet-product-label-name">Product:</span>
+							<span class="pet-product-name">Dog Food</span>
+							<span class="pet-product-label-measurement">Size:</span>
+							<span class="pet-product-measurement">1.5kg</span>
+							<span class="pet-product-price">165.000 VND</span>
+						</div>
+						<div class="pet-product-gift">
+							<img src="./assets/images/gift.png" alt="gift" />
+							<p>• Toy & Free Shaker</p>
+						</div>
+					</a>
+				</li>
+
+				<li class="pet-product-item">
+					<a href="#" class="pet-product-card">
+						<div class="pet-product-img">
+							<img src="./assets/images/zealand.png" alt="zealand" />
+						</div>
+						<div class="pet-product-infor">
+							<h3 class="pet-product-name">
+								Reflex Plus Adult Cat Food Salmon
+							</h3>
+							<span class="pet-product-label-name">Product:</span>
+							<span class="pet-product-name">Dog Food</span>
+							<span class="pet-product-label-measurement">Size:</span>
+							<span class="pet-product-measurement">1.5kg</span>
+							<span class="pet-product-price">165.000 VND</span>
+						</div>
+						<div class="pet-product-gift">
+							<img src="./assets/images/gift.png" alt="gift" />
+							<p>• Toy & Free Shaker</p>
+						</div>
+					</a>
+				</li>
+
+				<li class="pet-product-item">
+					<a href="#" class="pet-product-card">
+						<div class="pet-product-img">
+							<img src="./assets/images/zealand.png" alt="zealand" />
+						</div>
+						<div class="pet-product-infor">
+							<h3 class="pet-product-name">
+								Reflex Plus Adult Cat Food Salmon
+							</h3>
+							<span class="pet-product-label-name">Product:</span>
+							<span class="pet-product-name">Dog Food</span>
+							<span class="pet-product-label-measurement">Size:</span>
+							<span class="pet-product-measurement">1.5kg</span>
+							<span class="pet-product-price">165.000 VND</span>
+						</div>
+						<div class="pet-product-gift">
+							<img src="./assets/images/gift.png" alt="gift" />
+							<p>• Toy & Free Shaker</p>
+						</div>
+					</a>
+				</li>
+
+				<li class="pet-product-item">
+					<a href="#" class="pet-product-card">
+						<div class="pet-product-img">
+							<img src="./assets/images/zealand.png" alt="zealand" />
+						</div>
+						<div class="pet-product-infor">
+							<h3 class="pet-product-name">
+								Reflex Plus Adult Cat Food Salmon
+							</h3>
+							<span class="pet-product-label-name">Product:</span>
+							<span class="pet-product-name">Dog Food</span>
+							<span class="pet-product-label-measurement">Size:</span>
+							<span class="pet-product-measurement">1.5kg</span>
+							<span class="pet-product-price">165.000 VND</span>
+						</div>
+						<div class="pet-product-gift">
+							<img src="./assets/images/gift.png" alt="gift" />
+							<p>• Toy & Free Shaker</p>
+						</div>
+					</a>
+				</li>
+
+				<li class="pet-product-item">
+					<a href="#" class="pet-product-card">
+						<div class="pet-product-img">
+							<img src="./assets/images/zealand.png" alt="zealand" />
+						</div>
+						<div class="pet-product-infor">
+							<h3 class="pet-product-name">
+								Reflex Plus Adult Cat Food Salmon
+							</h3>
+							<span class="pet-product-label-name">Product:</span>
+							<span class="pet-product-name">Dog Food</span>
+							<span class="pet-product-label-measurement">Size:</span>
+							<span class="pet-product-measurement">1.5kg</span>
+							<span class="pet-product-price">165.000 VND</span>
+						</div>
+						<div class="pet-product-gift">
+							<img src="./assets/images/gift.png" alt="gift" />
+							<p>• Toy & Free Shaker</p>
+						</div>
+					</a>
+				</li>
+
+				<li class="pet-product-item">
+					<a href="#" class="pet-product-card">
+						<div class="pet-product-img">
+							<img src="./assets/images/zealand.png" alt="zealand" />
+						</div>
+						<div class="pet-product-infor">
+							<h3 class="pet-product-name">
+								Reflex Plus Adult Cat Food Salmon
+							</h3>
+							<span class="pet-product-label-name">Product:</span>
+							<span class="pet-product-name">Dog Food</span>
+							<span class="pet-product-label-measurement">Size:</span>
+							<span class="pet-product-measurement">1.5kg</span>
+							<span class="pet-product-price">165.000 VND</span>
+						</div>
+						<div class="pet-product-gift">
+							<img src="./assets/images/gift.png" alt="gift" />
+							<p>• Toy & Free Shaker</p>
+						</div>
+					</a>
+				</li>
+
+				<li class="pet-product-item">
+					<a href="#" class="pet-product-card">
+						<div class="pet-product-img">
+							<img src="./assets/images/zealand.png" alt="zealand" />
+						</div>
+						<div class="pet-product-infor">
+							<h3 class="pet-product-name">
+								Reflex Plus Adult Cat Food Salmon
+							</h3>
+							<span class="pet-product-label-name">Product:</span>
+							<span class="pet-product-name">Dog Food</span>
+							<span class="pet-product-label-measurement">Size:</span>
+							<span class="pet-product-measurement">1.5kg</span>
+							<span class="pet-product-price">165.000 VND</span>
+						</div>
+						<div class="pet-product-gift">
+							<img src="./assets/images/gift.png" alt="gift" />
+							<p>• Toy & Free Shaker</p>
+						</div>
+					</a>
+				</li>
+
+				<li class="pet-product-item">
+					<a href="#" class="pet-product-card">
+						<div class="pet-product-img">
+							<img src="./assets/images/zealand.png" alt="zealand" />
+						</div>
+						<div class="pet-product-infor">
+							<h3 class="pet-product-name">
+								Reflex Plus Adult Cat Food Salmon
+							</h3>
+							<span class="pet-product-label-name">Product:</span>
+							<span class="pet-product-name">Dog Food</span>
+							<span class="pet-product-label-measurement">Size:</span>
+							<span class="pet-product-measurement">1.5kg</span>
+							<span class="pet-product-price">165.000 VND</span>
+						</div>
+						<div class="pet-product-gift">
+							<img src="./assets/images/gift.png" alt="gift" />
+							<p>• Toy & Free Shaker</p>
+						</div>
+					</a>
+				</li>
+			</ul>
 		</section>
 
 		<!-- Partner-->
@@ -341,49 +434,33 @@
 					<h2 class="partners-heading">Pet Sellers</h2>
 				</div>
 				<button class="partners-view-all">
-					View all our sellers
+					<span>View all our sellers</span>
 					<img src="./assets/icons/iconRight.png" alt="icon right" />
 				</button>
 			</div>
-			<nav class="partners-nav">
-				<ul class="partners-list">
-					<li class="partners-item">
-						<a href="#">
-							<img src="./assets/images/sheba.png" alt="Brand sheba" />
-						</a>
-					</li>
-					<li class="partners-item">
-						<a href="#">
-							<img src="./assets/images/sheba.png" alt="Brand sheba" />
-						</a>
-					</li>
-					<li class="partners-item">
-						<a href="#">
-							<img src="./assets/images/sheba.png" alt="Brand sheba" />
-						</a>
-					</li>
-					<li class="partners-item">
-						<a href="#">
-							<img src="./assets/images/sheba.png" alt="Brand sheba" />
-						</a>
-					</li>
-					<li class="partners-item">
-						<a href="#">
-							<img src="./assets/images/sheba.png" alt="Brand sheba" />
-						</a>
-					</li>
-					<li class="partners-item">
-						<a href="#">
-							<img src="./assets/images/sheba.png" alt="Brand sheba" />
-						</a>
-					</li>
-					<li class="partners-item">
-						<a href="#">
-							<img src="./assets/images/sheba.png" alt="Brand sheba" />
-						</a>
-					</li>
-				</ul>
-			</nav>
+			<div class="partners-list">
+				<div class="partners-item">
+					<img src="./assets/images/sheba.png" alt="Brand sheba" />
+				</div>
+				<div class="partners-item">
+					<img src="./assets/images/sheba.png" alt="Brand sheba" />
+				</div>
+				<div class="partners-item">
+					<img src="./assets/images/sheba.png" alt="Brand sheba" />
+				</div>
+				<div class="partners-item">
+					<img src="./assets/images/sheba.png" alt="Brand sheba" />
+				</div>
+				<div class="partners-item">
+					<img src="./assets/images/sheba.png" alt="Brand sheba" />
+				</div>
+				<div class="partners-item">
+					<img src="./assets/images/sheba.png" alt="Brand sheba" />
+				</div>
+				<div class="partners-item">
+					<img src="./assets/images/sheba.png" alt="Brand sheba" />
+				</div>
+			</div>
 		</section>
 
 		<!-- Pet Adoption-->
@@ -401,7 +478,7 @@
 				<div class="adoption-btn">
 					<button>Explore now</button>
 					<button>
-						View Intro
+						<span>View Intro</span>
 						<img src="./assets/icons/Play_Circle.png" alt="icon play video" />
 					</button>
 				</div>
@@ -423,22 +500,64 @@
 					<img src="./assets/icons/iconRight.png" alt="icon right" />
 				</button>
 			</div>
-			<div class="pet-knowledge-content">
-				<div class="pet-knowledge-image">
-					<img src="./assets/images/img-pet-knowledge.png" alt="image pet" />
-				</div>
-				<div class="pet-knowledge-infor">
-					<p class="pet-knowledge-infor-category">Pet knowledge</p>
-					<h3 class="pet-knowledge-infor-title">
-						What is a Pomeranian? How to Identify Pomeranian Dogs
-					</h3>
-					<p>
-						The Pomeranian, also known as the Pomeranian (Pom dog), is always
-						in the top of the cutest pets. Not only that, the small, lovely,
-						smart, friendly, and skillful circus dog breed.
-					</p>
-				</div>
-			</div>
+			<ul class="pet-knowledge-list">
+				<li class="pet-knowledge-item">
+					<a href="#" class="pet-knowledge-content">
+						<div class="pet-knowledge-image">
+							<img src="./assets/images/img-pet-knowledge.png" alt="image pet" />
+						</div>
+						<div class="pet-knowledge-infor">
+							<span class="pet-knowledge-infor-category">Pet knowledge</span>
+							<h3 class="pet-knowledge-infor-title">
+								What is a Pomeranian? How to Identify Pomeranian Dogs
+							</h3>
+							<p class="pet-knowledge-description">
+								The Pomeranian, also known as the Pomeranian (Pom dog), is always
+								in the top of the cutest pets. Not only that, the small, lovely,
+								smart, friendly, and skillful circus dog breed.
+							</p>
+						</div>
+					</a>
+				</li>
+
+				<li class="pet-knowledge-item">
+					<a href="#" class="pet-knowledge-content">
+						<div class="pet-knowledge-image">
+							<img src="./assets/images/img-pet-knowledge.png" alt="image pet" />
+						</div>
+						<div class="pet-knowledge-infor">
+							<span class="pet-knowledge-infor-category">Pet knowledge</span>
+							<h3 class="pet-knowledge-infor-title">
+								What is a Pomeranian? How to Identify Pomeranian Dogs
+							</h3>
+							<p class="pet-knowledge-description">
+								The Pomeranian, also known as the Pomeranian (Pom dog), is always
+								in the top of the cutest pets. Not only that, the small, lovely,
+								smart, friendly, and skillful circus dog breed.
+							</p>
+						</div>
+					</a>
+				</li>
+
+				<li class="pet-knowledge-item">
+					<a href="#" class="pet-knowledge-content">
+						<div class="pet-knowledge-image">
+							<img src="./assets/images/img-pet-knowledge.png" alt="image pet" />
+						</div>
+						<div class="pet-knowledge-infor">
+							<span class="pet-knowledge-infor-category">Pet knowledge</span>
+							<h3 class="pet-knowledge-infor-title">
+								What is a Pomeranian? How to Identify Pomeranian Dogs
+							</h3>
+							<p class="pet-knowledge-description">
+								The Pomeranian, also known as the Pomeranian (Pom dog), is always
+								in the top of the cutest pets. Not only that, the small, lovely,
+								smart, friendly, and skillful circus dog breed.
+							</p>
+						</div>
+					</a>
+				</li>
+			</ul>
 		</section>
 	</main>
 
@@ -448,18 +567,18 @@
 			<h2 class="footer-title">
 				Register now so you don't miss our programs
 			</h2>
-			<div class="footer-form">
+			<form class="footer-form">
 				<input class="footer-input" type="text" placeholder="Enter your email" />
 				<button class="footer-btn-subcribe">Subcribe Now</button>
-			</div>
+			</form>
 		</div>
 		<div class="footer-content">
 			<nav class="footer-nav">
 				<ul class="footer-menu">
-					<li><a href="#"></a>Home</li>
-					<li><a href="#"></a>Category</li>
-					<li><a href="#"></a>About</li>
-					<li><a href="#"></a>Contact</li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Category</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
 				</ul>
 			</nav>
 			<nav>
@@ -487,12 +606,11 @@
 				</ul>
 			</nav>
 		</div>
-		<p class="line"></p>
 		<div class="footer-bottom">
 			<p class="footer-copyright">© 2022 Monito. All rights reserved.</p>
-			<div class="footer-logo">
-				<img src="./assets/images/logoMonito.png" alt="logo Monito" />
-			</div>
+			<h2 class="footer-logo">
+				<img src="./assets/images/logoMonito.png" alt="Logo Menitor Pets for Best" />
+			</h2>
 			<div class="footer-policy">
 				<a href="#">Terms of Service</a>
 				<a href="#">Privacy Policy</a>
