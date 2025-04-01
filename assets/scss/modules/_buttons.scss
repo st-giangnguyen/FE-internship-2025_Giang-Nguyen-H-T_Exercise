@@ -1,0 +1,27 @@
+.btn {
+  border-radius: 57px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+
+  &-primary {
+    background-color: $primary-color;
+    color: $primary-color;
+    border: none;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &-outline {
+    background-color: transparent;
+    border: 2px solid $primary-color;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
