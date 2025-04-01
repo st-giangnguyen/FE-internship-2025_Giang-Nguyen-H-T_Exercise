@@ -36,26 +36,36 @@ a {
 
 .btn {
   border-radius: 57px;
-  padding: 10px 20px;
   font-size: 16px;
-  font-weight: bold;
   text-align: center;
   cursor: pointer;
 }
 .btn-primary {
   background-color: #003459;
-  color: #003459;
+  color: #fdfdfd;
   border: none;
 }
 .btn-primary:hover {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .btn-outline {
   background-color: transparent;
-  border: 2px solid #003459;
+  color: #003459;
+  border: 1.5px solid #003459;
 }
 .btn-outline:hover {
-  color: #003459;
+  background-color: #003459;
+  color: #fdfdfd;
+}
+
+input:focus {
+  outline: none;
+}
+input::placeholder {
+  color: #99a2a5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .container {
@@ -66,6 +76,7 @@ a {
 .header .container {
   padding-top: 30px;
   padding-bottom: 30px;
+  display: flex;
 }
 .header-logo {
   margin-right: 24px;
@@ -73,91 +84,61 @@ a {
 .header .section-nav {
   display: flex;
 }
-.header .nav {
+.header .section-nav .nav {
   display: flex;
   align-items: center;
 }
-.header .list-nav {
+.header .section-nav .list-nav {
   display: flex;
 }
-.header .list-item {
+.header .section-nav .list-item {
   margin: 0 24px;
 }
-
-.list-item a {
-  text-decoration: none;
+.header .section-nav .list-item a {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   color: #003459;
 }
-
-.section-actions {
+.header .section-actions {
   display: flex;
   align-items: center;
 }
-
-.section-actions .form-search {
+.header .section-actions .form-search {
   display: flex;
-  background-color: white;
   width: 280px;
   padding: 12px 0;
   padding-left: 16px;
   border-radius: 46px;
+  background-color: #fdfdfd;
 }
-
-.section-actions .text-input {
+.header .section-actions .form-search input {
   border: none;
 }
-
-inputfocus {
-  outline: none;
-}
-
-inputplaceholder {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 20px;
-}
-
-.icon-search {
+.header .section-actions .icon-search {
   padding-right: 12px;
 }
-
-.section-actions .btn-primary {
-  height: 44px;
+.header .section-actions .btn-primary {
   margin-left: 14px;
-}
-
-.btn-primary {
-  color: white;
   background-color: #003459;
-  border: none;
-}
-
-.section-actions .btn-primary {
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
-  border-radius: 57px;
   padding: 0 28px;
   height: 100%;
 }
-
-.header-selector {
+.header .header-selector {
   display: flex;
   height: 100%;
   align-items: center;
   padding: 0 8px;
   margin-left: 14px;
 }
-
-.header-selector img {
+.header .header-selector img {
   width: 21px;
   height: 21px;
 }
-
-.currency {
+.header .header-selector .currency {
   display: block;
   margin-left: 6px;
   border: none;

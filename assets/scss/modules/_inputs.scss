@@ -1,0 +1,11 @@
+input {
+  &:focus {
+    outline: none;
+  }
+  &::placeholder {
+    color: $text-input;
+    font-weight: $font-500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
