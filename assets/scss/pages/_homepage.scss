@@ -1,0 +1,55 @@
+.section-banner {
+  position: relative;
+  .section-content {
+    position: absolute;
+    top: 180px;
+    left: 130px;
+    .section-title {
+      color: $h1-color;
+      font-weight: $font-800;
+      font-size: 60px;
+      line-height: 68px;
+      width: 465px;
+      margin-bottom: 24px;
+      span {
+        color: $h1-color;
+        font-weight: $font-700;
+        font-size: 46px;
+        line-height: 60px;
+        width: 452px;
+      }
+    }
+    .description {
+      font-weight: $font-500;
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 34px;
+      width: 480px;
+    }
+    .btn-group {
+      display: flex;
+
+      .btn-outline {
+        display: flex;
+        align-items: center;
+        padding: 14px 28px;
+        margin-right: 20px;
+        span {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          margin-right: 4px;
+        }
+      }
+
+      .btn-primary {
+        padding: 14px 28px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        border-radius: 57px;
+        width: 163px;
+      }
+    }
+  }
+}

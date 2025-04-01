@@ -54,8 +54,7 @@ a {
   border: 1.5px solid #003459;
 }
 .btn-outline:hover {
-  background-color: #003459;
-  color: #fdfdfd;
+  opacity: 0.8;
 }
 
 input:focus {
@@ -68,17 +67,75 @@ input::placeholder {
   line-height: 20px;
 }
 
-.container {
-  max-width: 1200px;
-  padding: 0 130px;
+.section-banner {
+  position: relative;
+}
+.section-banner .section-content {
+  position: absolute;
+  top: 180px;
+  left: 130px;
+}
+.section-banner .section-content .section-title {
+  color: #002a48;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 68px;
+  width: 465px;
+  margin-bottom: 24px;
+}
+.section-banner .section-content .section-title span {
+  color: #002a48;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 60px;
+  width: 452px;
+}
+.section-banner .section-content .description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 34px;
+  width: 480px;
+}
+.section-banner .section-content .btn-group {
+  display: flex;
+}
+.section-banner .section-content .btn-group .btn-outline {
+  display: flex;
+  align-items: center;
+  padding: 14px 28px;
+  margin-right: 20px;
+}
+.section-banner .section-content .btn-group .btn-outline span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 4px;
+}
+.section-banner .section-content .btn-group .btn-primary {
+  padding: 14px 28px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 57px;
+  width: 163px;
 }
 
-.header .container {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.container {
+  max-width: 1200px;
+  margin: 0 130px;
+}
+.container-fluid {
+  max-width: 100%;
+}
+
+.header .header-content {
+  padding: 30px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
+  z-index: 10;
 }
 .header-logo {
   margin-right: 24px;

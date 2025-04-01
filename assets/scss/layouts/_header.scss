@@ -1,10 +1,11 @@
 .header {
-  .container {
-    padding-top: 30px;
-    padding-bottom: 30px;
+  .header-content {
+    padding: 30px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    z-index: 10;
   }
   &-logo {
     margin-right: 24px;
