@@ -77,6 +77,8 @@ input::placeholder {
   padding-top: 30px;
   padding-bottom: 30px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .header-logo {
   margin-right: 24px;
@@ -106,7 +108,7 @@ input::placeholder {
 }
 .header .section-actions .form-search {
   display: flex;
-  width: 280px;
+  width: 264px;
   padding: 12px 0;
   padding-left: 16px;
   border-radius: 46px;
@@ -120,18 +122,13 @@ input::placeholder {
 }
 .header .section-actions .btn-primary {
   margin-left: 14px;
-  background-color: #003459;
-  font-size: 16px;
   line-height: 24px;
   font-weight: 700;
-  padding: 0 28px;
-  height: 100%;
+  padding: 10px 28px;
 }
 .header .header-selector {
   display: flex;
-  height: 100%;
   align-items: center;
-  padding: 0 8px;
   margin-left: 14px;
 }
 .header .header-selector img {
@@ -139,11 +136,7 @@ input::placeholder {
   height: 21px;
 }
 .header .header-selector .currency {
-  display: block;
   margin-left: 6px;
-  border: none;
-  user-select: none;
-  background: transparent;
 }
 
 /*# sourceMappingURL=style.css.map */
