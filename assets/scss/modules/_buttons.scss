@@ -18,8 +18,7 @@
     color: $primary-color;
     border: 1.5px solid $primary-color;
     &:hover {
-      background-color: $primary-color;
-      color: $background-color;
+      opacity: 0.8;
     }
   }
 }
