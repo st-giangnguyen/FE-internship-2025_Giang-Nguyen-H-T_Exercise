@@ -5,7 +5,7 @@
   cursor: pointer;
 
   &-primary {
-    background-color: $primary-color;
+    background-color: $color-primary;
     color: $white-color;
     border: none;
     &:hover {
@@ -15,8 +15,8 @@
 
   &-outline {
     background-color: transparent;
-    color: $primary-color;
-    border: 1.5px solid $primary-color;
+    color: $color-primary;
+    border: 1.5px solid $color-primary;
     &:hover {
       opacity: 0.8;
     }
