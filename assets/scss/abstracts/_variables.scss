@@ -31,33 +31,6 @@ $font-600: 600;
 $font-700: 700;
 $font-800: 800;
 
-@font-face {
-  font-family: "SVN-Gilroy";
-  src: url("./assets/fonts/fonnts.com-SVNGilroy-Light.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "SVN-Gilroy";
-  src: url("./assets/fonts/fonnts.com-SVNGilroy-Bold.otf") format("opentype");
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: "SVN-Gilroy";
-  src: url("./assets/fonts/fonnts.com-SVNGilroy-Light.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "SVN-Gilroy";
-  src: url("./assets/fonts/fonnts.com-SVNGilroy-Bold.otf") format("opentype");
-  font-weight: bold;
-  font-style: normal;
-}
-
 // Spacing
 $spacing-2xs: 4px;
 $spacing-xs: 8px;
