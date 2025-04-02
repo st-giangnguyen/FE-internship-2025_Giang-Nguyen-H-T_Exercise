@@ -34,6 +34,39 @@ a {
   text-decoration: none;
 }
 
+.btn {
+  border-radius: 57px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+.btn-primary {
+  background-color: #003459;
+  color: #fdfdfd;
+  border: none;
+}
+.btn-primary:hover {
+  opacity: 0.9;
+}
+.btn-outline {
+  background-color: transparent;
+  color: #003459;
+  border: 1.5px solid #003459;
+}
+.btn-outline:hover {
+  opacity: 0.8;
+}
+
+input:focus {
+  outline: none;
+}
+input::placeholder {
+  color: #99a2a5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 130px;

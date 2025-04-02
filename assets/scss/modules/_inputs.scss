@@ -3,7 +3,7 @@ input {
     outline: none;
   }
   &::placeholder {
-    color: $text-input;
+    color: $light-grey-color;
     font-weight: $font-500;
     font-size: $text-md;
     line-height: 20px;
