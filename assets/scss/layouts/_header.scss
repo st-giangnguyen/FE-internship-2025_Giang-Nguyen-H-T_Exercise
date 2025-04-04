@@ -1,0 +1,69 @@
+.header {
+  .header-content {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+  }
+  &-logo {
+    margin-right: 24px;
+  }
+  .section-nav {
+    display: flex;
+    .nav {
+      display: flex;
+      align-items: center;
+    }
+    .list-nav {
+      display: flex;
+    }
+    .list-item {
+      margin: 0 24px;
+      a {
+        font-weight: $font-700;
+        font-size: $text-md;
+        line-height: 24px;
+        color: $primary-color;
+      }
+    }
+  }
+  .section-actions {
+    display: flex;
+    align-items: center;
+    .form-search {
+      display: flex;
+      width: 264px;
+      padding: 12px 0;
+      padding-left: 16px;
+      border-radius: 46px;
+      background-color: $white-color;
+      input {
+        border: none;
+      }
+    }
+    .icon-search {
+      padding-right: 12px;
+    }
+    .btn-primary {
+      margin-left: 14px;
+      line-height: 24px;
+      font-weight: $font-700;
+      padding: 10px 28px;
+    }
+  }
+  .header-selector {
+    display: flex;
+    align-items: center;
+    margin-left: 14px;
+    .flag-vietnam {
+      width: 21px;
+      height: 21px;
+    }
+    .currency {
+      margin-left: 6px;
+      text-transform: uppercase;
+    }
+  }
+}
