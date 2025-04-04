@@ -1,0 +1,14 @@
+.list {
+  display: flex;
+  flex-direction: column;
+
+  &-row {
+    flex-direction: row;
+  }
+  &-gap-lg {
+    gap: 20px;
+  }
+  &-gap-xl {
+    gap: 30px;
+  }
+}
