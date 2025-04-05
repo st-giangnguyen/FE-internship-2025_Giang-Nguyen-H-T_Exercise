@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  align-items: center;
+  .nav-link {
+    font-size: $text-md;
+  }
+}
+
+.header {
+  .section-nav {
+    display: flex;
+    .list-item {
+      margin: 0 24px;
+    }
+  }
+  .nav-link {
+    font-weight: $font-700;
+    color: $color-primary;
+  }
+}
+
+.footer {
+  .nav-link {
+    color: $color-black-secondary;
+    font-weight: $font-500;
+  }
+}
