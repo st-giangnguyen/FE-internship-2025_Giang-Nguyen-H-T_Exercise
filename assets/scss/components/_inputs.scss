@@ -1,9 +1,9 @@
 input {
   &:focus {
-    outline: none;
+    outline: 0;
   }
   &::placeholder {
-    color: $light-grey-color;
+    color: $color-grey-secondary;
     font-weight: $font-500;
     font-size: $text-md;
     line-height: 20px;
