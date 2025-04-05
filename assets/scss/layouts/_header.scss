@@ -10,25 +10,6 @@
   &-logo {
     margin-right: 24px;
   }
-  .section-nav {
-    display: flex;
-    .nav {
-      display: flex;
-      align-items: center;
-    }
-    .list-nav {
-      display: flex;
-    }
-    .list-item {
-      margin: 0 24px;
-      a {
-        font-weight: $font-700;
-        font-size: $text-md;
-        line-height: 24px;
-        color: $primary-color;
-      }
-    }
-  }
   .section-actions {
     display: flex;
     align-items: center;
@@ -38,7 +19,7 @@
       padding: 12px 0;
       padding-left: 16px;
       border-radius: 46px;
-      background-color: $white-color;
+      background-color: $color-white-secondary;
       input {
         border: none;
       }

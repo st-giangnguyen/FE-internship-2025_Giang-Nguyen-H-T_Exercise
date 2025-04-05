@@ -1,0 +1,91 @@
+.section-banner {
+  position: relative;
+  .section-content {
+    position: absolute;
+    top: 180px;
+    left: 130px;
+    max-width: 550px;
+    .section-title {
+      color: $color-primary-dark;
+      font-weight: $font-800;
+      font-size: $text-4xl;
+      line-height: 68px;
+      margin-bottom: 24px;
+      .subtitle {
+        color: $color-primary-dark;
+        font-weight: $font-700;
+        font-size: $text-2xl;
+        line-height: 60px;
+      }
+    }
+    .description {
+      font-weight: $font-500;
+      font-size: $text-md;
+      line-height: 24px;
+      margin-bottom: 34px;
+    }
+  }
+}
+
+.section-second-banner {
+  .section-wrapper {
+    position: relative;
+    .section-content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 56px 85px;
+
+      .section-header {
+        justify-content: flex-start;
+        align-items: center;
+        padding-bottom: 0;
+        .section-title {
+          font-size: $text-3xl;
+          line-height: 68px;
+          font-weight: $font-800;
+          color: $color-primary;
+        }
+      }
+      .subtitle {
+        color: $color-primary;
+        font-weight: $font-700;
+        font-size: $text-xl;
+        line-height: 54px;
+      }
+      .description {
+        max-width: 394px;
+        font-size: $text-xs;
+        font-weight: $font-500;
+        line-height: 18px;
+        margin-bottom: 42px;
+        span {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.reverse {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  .section-header {
+    flex-direction: column;
+  }
+}
+
+.section-pet-companion .section-wrapper .section-content {
+  .section-header {
+    align-items: normal;
+  }
+  .description {
+    font-weight: $font-500;
+    font-size: $text-xs;
+    line-height: 18px;
+    margin-bottom: 24px;
+  }
+}
