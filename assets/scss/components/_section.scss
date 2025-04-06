@@ -1,0 +1,19 @@
+.section-partners {
+  @media (max-width: $mobile) {
+    display: none;
+  }
+  .section-title {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .section-wrapper {
+    padding: 40px 0;
+  }
+}
+
+.section-products {
+  .section-wrapper {
+    padding: 60px 0;
+  }
+}
