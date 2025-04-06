@@ -951,6 +951,11 @@ input::placeholder {
 .footer .section-wrapper {
   padding-top: 80px;
 }
+@media (max-width: 576px) {
+  .footer .section-wrapper {
+    padding-top: 40px;
+  }
+}
 .footer .section-content {
   display: flex;
   align-items: center;
