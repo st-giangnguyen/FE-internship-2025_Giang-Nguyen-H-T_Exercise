@@ -466,6 +466,11 @@ input::placeholder {
   padding: 12px 28px;
 }
 
+@media (max-width: 576px) {
+  .section-partners {
+    display: none;
+  }
+}
 .section-partners .section-title {
   display: flex;
   justify-content: center;

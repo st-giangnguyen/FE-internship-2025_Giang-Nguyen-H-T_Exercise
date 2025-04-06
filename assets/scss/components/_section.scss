@@ -29,6 +29,9 @@
 }
 
 .section-partners {
+  @media (max-width: $mobile) {
+    display: none;
+  }
   .section-title {
     display: flex;
     justify-content: center;
